@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+          <img src="images/Screenshot (38).png" href="logo of college">
+        </header>
+        <div class="menubar">
+                <ul>
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="second.html">vision</a></li>
+                    <li><a href="#">acadamics</a>
+                          <div class="submenu">
+                              <ul>
+                                  <li><a href="#">2021</a></li>
+                                  <li><a href="#">2022</a></li>
+                                  <li><a href="#">2023</a></li>
+                                  <li><a href="#">2024</a></li>
+                             </ul>
+                          </div>
+                    </li>
+                    <li><a href="#">administration</a></li>
+                </ul>
+        </div>
+        <div class="announcement">
+            <h1>Announcement
+            </h1>
+            <h2>
+                <span class="announ"></span>
+            </h2>
+        </div>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="images/Screenshot (38).png">
+                </div>
+                <div class="slide second">
+                    <img src="images/Screenshot (40).png">
+                </div>
+                <div class="slide third">
+                    <img src="images/ss.jpg">
+                </div>
+                <div class="slide forth">
+                    <img src="images/Screenshot (40).png">
+                </div>
+                <div class="navigationauto">
+                    <div class="autobtn1"></div>
+                    <div class="autobtn2"></div>
+                    <div class="autobtn3"></div>
+                    <div class="autobtn4"></div>
+                </div>
+
+            </div>
+            <div class="navigationmannual">
+                <label for="radio1" class="mannualbtn"></label>
+                <label for="radio2" class="mannualbtn"></label>
+                <label for="radio3" class="mannualbtn"></label>
+                <label for="radio4" class="mannualbtn"></label>
+            </div>
+        
+        </div>
+        <script type="text/javascript">
+            var counter=1;
+            setInterval(function(){
+            document.getElementById('radio' + counter).checked= true;
+            counter++;
+            if (counter>4){
+                counter=1;
+            }
+            },5000);
+        </script>
+    <div class="discription">
+        <h>about</h>
+        <p>fgyhftyguiiyuftyghuji</p>
+    </div>
+    <section class="events">
+        <div class="card">
+            <h2>title</h2>
+            <p>text</p>
+        </div>
+        <div class="card">
+            <h2>title</h2>
+            <p>text</p>
+        </div>
+        <div class="card">
+            <h2>title</h2>
+            <p>text</p>
+        </div>
+    </section> 
+    <div class="more">
+        <a href="#" >Admission</a>
+        <a href="#" >Adm</a>
+        <a href="#" >Admissi</a>
+        <a href="#" >Admison</a>
+        
+    </div> 
+    <footer>
+        <a href="#">CORPORATE PARTNERTS</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">EMAIL US</a>  
+        <p> co.Limerick-Copyright 2017</p> 
+    </footer>     
+</body>
+</html>
